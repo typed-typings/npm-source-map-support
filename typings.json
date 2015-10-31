@@ -1,0 +1,7 @@
+{
+  "name": "source-map-support",
+  "main": "source-map-support.d.ts",
+  "ambientDependencies": {
+    "node": "https://raw.githubusercontent.com/borisyankov/DefinitelyTyped/master/node/node.d.ts"
+  }
+}
