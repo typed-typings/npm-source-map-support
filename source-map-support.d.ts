@@ -15,6 +15,7 @@ export interface UrlAndMap {
  * Options to install().
  */
 export interface Options {
+  environment?: 'node' | 'browser' | 'auto';
   handleUncaughtExceptions?: boolean;
   emptyCacheBetweenOperations?: boolean;
   retrieveFile?: (path: string) => string;
