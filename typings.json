@@ -1,7 +1,8 @@
 {
   "name": "source-map-support",
+  "version": "0.4.3",
   "main": "source-map-support.d.ts",
-  "ambientDependencies": {
-    "node": "https://raw.githubusercontent.com/borisyankov/DefinitelyTyped/master/node/node.d.ts"
+  "globalDevDependencies": {
+    "node": "registry:env/node#6.0.0+20160918225031"
   }
 }

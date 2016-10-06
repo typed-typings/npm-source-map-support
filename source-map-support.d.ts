@@ -18,8 +18,8 @@ export interface Options {
   environment?: 'node' | 'browser' | 'auto';
   handleUncaughtExceptions?: boolean;
   emptyCacheBetweenOperations?: boolean;
-  retrieveFile?: (path: string) => string;
-  retrieveSourceMap?: (source: string) => UrlAndMap;
+  retrieveFile?: (path: string) => string | null | undefined;
+  retrieveSourceMap?: (source: string) => UrlAndMap | null | undefined;
 }
 
 export interface Position {
